@@ -1,0 +1,12 @@
+com\taotao\common\utils\FtpUtil.class
+com\taotao\common\utils\ExceptionUtil.class
+com\taotao\common\pojo\TaotaoResult.class
+com\taotao\common\pojo\EasyUIDataGridResult.class
+com\taotao\common\pojo\SolrItem.class
+com\taotao\common\pojo\TreeNode.class
+com\taotao\common\pojo\SearchResult.class
+com\taotao\common\pojo\PictureResult.class
+com\taotao\common\utils\HttpClientUtil.class
+com\taotao\common\utils\CookieUtils.class
+com\taotao\common\utils\JsonUtils.class
+com\taotao\common\utils\IDUtils.class
