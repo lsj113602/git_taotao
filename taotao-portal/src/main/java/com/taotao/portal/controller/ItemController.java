@@ -43,6 +43,7 @@ public class ItemController {
 	@RequestMapping(value="/item/param/{itemId}", produces=MediaType.TEXT_HTML_VALUE+";charset=utf-8")
 	@ResponseBody
 	private String getItemParam(@PathVariable Long itemId) {
+		//你好
 		String string = itemService.getItemParam(itemId);
 		return string;
 	}
