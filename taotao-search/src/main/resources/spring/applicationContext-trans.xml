@@ -35,4 +35,9 @@
 		<aop:advisor advice-ref="txAdvice"
 			pointcut="execution(* com.taotao.search.service.*.*(..))" />
 	</aop:config>
+
+	<aop:aspectj-autoproxy/>
+	<bean id="sdsd"
+		  class="com.taotao.search.aop.AspectjLog">
+	</bean>
 </beans>
